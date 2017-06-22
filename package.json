@@ -4,7 +4,8 @@
   "description": "A bot that tweets every few hours that it might be time to get off twitter.",
   "main": "autotweet.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "autotweet.js"
   },
   "keywords": [
     "twitter",
