@@ -1,1 +1,1 @@
-node autotweet.js
+worker: node autotweet
