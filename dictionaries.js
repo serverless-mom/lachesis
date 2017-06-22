@@ -8,14 +8,16 @@ var middles = [
   'Do something else for a bit.',
   'Time to close the tab, put down the phone, and stand up.',
   'Give your notifications time to pile up.',
-  'Do something you enjoy',
+  'Do something you enjoy!',
+  'Stretch or go read or just call a friend!',
   'Go look at something else.'
 ]
 
 var endings = [
   'I love you.',
-  'Thank you for taking a break.',
+  `Thank you for taking a break.`,
   `I'll tweet again in another hour.`,
+  `Don't think me, YOU followed me.`,
 ]
 
 module.exports = {

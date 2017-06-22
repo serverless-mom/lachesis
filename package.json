@@ -2,10 +2,9 @@
   "name": "logoffbot",
   "version": "1.0.0",
   "description": "A bot that tweets every few hours that it might be time to get off twitter.",
-  "main": "autotweet.js",
+  "main": "autotweet",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "autotweet.js"
+    "start": "node autotweet"
   },
   "keywords": [
     "twitter",
