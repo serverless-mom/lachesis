@@ -6,7 +6,6 @@ var config = ({
   access_token: process.env.BOT_ACCESS_TOKEN,
   access_token_secret: process.env.BOT_ACCESS_TOKEN_SECRET
 });
-config = require('./config.js');
 
 function chooseRandom(myArray) {
   return myArray[Math.floor(Math.random() * myArray.length)];
