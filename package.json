@@ -10,6 +10,7 @@
     "twitter",
     "automation"
   ],
+  "repository": "https://github.com/tobyfee/logoff",
   "author": "Toby Fee",
   "license": "ISC",
   "dependencies": {
