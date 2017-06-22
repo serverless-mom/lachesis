@@ -17,7 +17,7 @@ var endings = [
   'I love you.',
   `Thank you for taking a break.`,
   `I'll tweet again in another hour.`,
-  `Don't think me, YOU followed me.`,
+  `Don't thank me, YOU followed me.`,
 ]
 
 module.exports = {
