@@ -30,25 +30,25 @@ function MakeRandomText() {
 }
 
 //delete the previous tweet
-Twitter.get('statuses/user_timeline', {
-    screen_name: 'LogoffBot',
-    count: 'numberOfSavedTweets'
-  },
-  function(err, data, response) {
-    if (err) {
-      console.log('error!' + err)
-    } else if (data && data[(numberOfSavedTweets - 1)].id_str) { //check that there really was a tweet to delete
-      var deleteID = data[(numberOfSavedTweets - 1)].id_str;
-      Twitter.post('statuses/destroy/' + deleteID, {
-          'id': deleteID
-        },
-        function(err, data, response) {
-          if (err) {
-            console.log(err)
-          }
-        })
-    }
-  })
+// Twitter.get('statuses/user_timeline', {
+//     screen_name: 'LogoffBot',
+//     count: 'numberOfSavedTweets'
+//   },
+//   function(err, data, response) {
+//     if (err) {
+//       console.log('error!' + err)
+//     } else if (data && data[(numberOfSavedTweets - 1)].id_str) { //check that there really was a tweet to delete
+//       var deleteID = data[(numberOfSavedTweets - 1)].id_str;
+//       Twitter.post('statuses/destroy/' + deleteID, {
+//           'id': deleteID
+//         },
+//         function(err, data, response) {
+//           if (err) {
+//             console.log(err)
+//           }
+//         })
+//     }
+//   })
 
 var tweetText = MakeRandomText();
 console.log(tweetText);
