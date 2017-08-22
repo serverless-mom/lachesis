@@ -1,7 +1,7 @@
 {
-  "name": "logoffbot",
+  "name": "lachesis",
   "version": "1.0.0",
-  "description": "A bot that tweets every few hours that it might be time to get off twitter.",
+  "description": "a bot that grabs tarot readings for you",
   "main": "autotweet",
   "scripts": {
     "start": "node autotweet"
@@ -10,10 +10,11 @@
     "twitter",
     "automation"
   ],
-  "repository": "https://github.com/tobyfee/logoff",
+  "repository": "https://github.com/tobyfee/lachesis",
   "author": "Toby Fee",
   "license": "ISC",
   "dependencies": {
+    "corpora-project": "^0.2.0",
     "twit": "^2.2.9"
   }
 }
